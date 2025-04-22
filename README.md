@@ -1,17 +1,12 @@
-## DualVAE (SDM'24)
+## [Under Review] Rethinking Overconfidence in VAEs: Can Label Smoothing Help?
 
-This is the Pytorch implementation for our SDM 2024 paper:
->Zhiqiang Guo, Guohui Li, Jianjun Li, Chaoyang Wang, Si Shi. DualVAE: Dual Disentangled Variational AutoEncoder for Recommendation. In SDM 2024. [Paper](http://arxiv.org/abs/2401.04914)
+This is the Pytorch implementation for Recsys Paper
 
 ### Data  
 
 The interaction data is shared at `data/`.
 
-### Training logs and models
-
-The logs and parameters are shared at `log/` and `models/`, respectively.
-
-### Environment
+### Requirements
 
     pip install -r requirements.txt
 
@@ -23,13 +18,4 @@ Run `train.sh` to train DualVAE:
 
 You may specify other parameters in `train.sh`.
 
-### Citation
-
-    @inproceedings{guo2024dualvae,
-    author = {Zhiqiang Guo, Guohui Li, Jianjun Li, Chaoyang Wang, Si Shi},
-    title = {DualVAE: Dual Disentangled Variational AutoEncoder for Recommendation},
-    booktitle = {Proceedings of SDM},
-    pages = {xxx},
-    year = {2024}
-    }
 

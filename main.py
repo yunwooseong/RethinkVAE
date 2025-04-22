@@ -6,7 +6,7 @@ from cornac.metrics import Recall, NDCG
 from models.recom_dualvaecf import DualVAECF
 import torch
 
-parser = argparse.ArgumentParser(description="DualVAE model")
+parser = argparse.ArgumentParser(description="DualVAE w/ LS model")
 parser.add_argument("-d", "--dataset", type=str, default="ML1M",
                     help="name of the dataset, suppose ['ML1M', 'AKindle', 'Yelp']")
 parser.add_argument("-k", "--latent_dim", type=int, default=20,

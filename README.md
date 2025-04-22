@@ -4,7 +4,7 @@ This is the Pytorch implementation for Recsys Paper
 
 ### Data  
 
-The interaction data is shared at `data/`.
+The datasets is available at `data/`.
 
 ### Requirements
 
@@ -12,10 +12,8 @@ The interaction data is shared at `data/`.
 
 ### Run
 
-Run `train.sh` to train DualVAE: 
+Run `train.sh` to train DualVAE with LS : 
 
     bash train.sh
-
-You may specify other parameters in `train.sh`.
 
 

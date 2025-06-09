@@ -3,7 +3,6 @@ import numpy as np
 import torch
 import torch.nn as nn
 from tqdm.auto import trange
-import wandb
 
 EPS = 1e-10
 

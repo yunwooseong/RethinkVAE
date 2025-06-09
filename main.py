@@ -20,7 +20,7 @@ parser.add_argument("-de", "--decoder", type=str, default="[40]",
 parser.add_argument("-af", "--act_fn", type=str, default="tanh",
                     choices=["sigmoid", "tanh", "relu", "relu6", "elu"],
                     help="non-linear activation function for the encoders")
-parser.add_argument("-lh", "--likelihood", type=str, default="mult",
+parser.add_argument("-lh", "--likelihood", type=str, default="pois",
                     choices=["pois", "bern", "gaus", "mult"],
                     help="likelihood function to fit the rating observations")
 parser.add_argument("-ne", "--num_epochs", type=int, default=200,

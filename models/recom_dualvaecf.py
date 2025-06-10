@@ -93,7 +93,7 @@ class DualVAECF(Recommender):
         tx = x.transpose()
 
         if item_idx is None:
-            if self.is_unk_user(user_idx):
+            if self.is_unknown_user(user_idx):
                 raise ScoreException("Can't make score prediction for (user_id=%d)" % user_idx)
 
             # Reconstructed batch
@@ -115,7 +115,7 @@ class DualVAECF(Recommender):
             known_item_scores[pos_items] = 0.
             return known_item_scores
         else:
-            if self.is_unk_user(user_idx) or self.is_unk_item(
+            if self.is_unknown_user(user_idx) or self.is_unknown_item(
                 item_idx
             ):
                 raise ScoreException(

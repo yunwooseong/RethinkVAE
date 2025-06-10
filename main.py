@@ -33,7 +33,7 @@ parser.add_argument("-kl", "--beta_kl", type=float, default=1.0,
                     help="beta weighting for the KL divergence")
 parser.add_argument("-cl", "--gama_cl", type=float, default=0.01,
                     help="gama weighting for the contrast loss")
-parser.add_argument("-ls", "--LS", type=float, default=0.001,
+parser.add_argument("-ls", "--LS", type=float, default=0.05,
                     help="weighting for the Label Smooting")
 parser.add_argument("-tn", "--top_n", type=int, default=[20, 50],
                     help="n cut-off for top-n evaluation")

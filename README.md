@@ -1,6 +1,6 @@
-## [Recsys'25] Rethinking Overconfidence in VAEs: Can Label Smoothing Help?
+## [RecSys'25] Rethinking Overconfidence in VAEs: Can Label Smoothing Help?
 
-This is the Pytorch implementation for Recsys Paper
+This is the Pytorch implementation for RecSys Paper
 
 ### Data  
 

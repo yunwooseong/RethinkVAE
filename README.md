@@ -1,5 +1,6 @@
 ## [RecSys'25] Rethinking Overconfidence in VAEs: Can Label Smoothing Help?
 [![View Paper](https://img.shields.io/badge/View%20Paper-PDF-E24D35)](https://dl.acm.org/doi/10.1145/3705328.3748039) [![DOI](https://img.shields.io/badge/DOI-10.1145/3705328.3748039-blue)](https://doi.org/10.1145/3705328.3748039)
+
 This is the Pytorch implementation for RecSys Paper
 
 ### Data  

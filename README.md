@@ -4,11 +4,11 @@
 ## 📄 Paper
 This is the Pytorch implementation for RecSys Paper
 
-## Data  
+## 📊 Data  
 
 The datasets is available at `data/`.
 
-## Requirements
+## 🛠️ Requirements
 
 ```bash
 conda create -n rethink python=3.8.20
@@ -17,11 +17,11 @@ pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https
 pip install pandas==2.0.3
 ```
 
-## Run
+## 🚀 Run
 
 Run `train.sh` to train DualVAE with LS : 
 
     bash train.sh
 
-## Acknowledgements
+## 🙏 Acknowledgements
 This work was partly supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (RS-2025-00553785) and the Institute of Information \& Communications Technology Planning \& Evaluation (IITP) grant funded by the Korean government (MSIT) (RS-2021-II211341, Artificial Intelligence Graduate School Program of Chung-Ang University)

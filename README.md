@@ -4,7 +4,7 @@
 ## 📄 Paper
 This is the Pytorch implementation for RecSys Paper
 
-## 📊 Data  
+## 📊 Datasets 
 
 The datasets is available at `data/`.
 

@@ -23,4 +23,5 @@ Run `train.sh` to train DualVAE with LS :
 
     bash train.sh
 
-
+### Acknowledgements
+This work was partly supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (RS-2025-00553785) and the Institute of Information \& Communications Technology Planning \& Evaluation (IITP) grant funded by the Korean government (MSIT) (RS-2021-II211341, Artificial Intelligence Graduate School Program of Chung-Ang University)

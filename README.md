@@ -61,7 +61,7 @@ Set `-ls 0.0` to reproduce the baseline without label smoothing. `train.sh` runs
 
 ## Results
 
-Bold marks the better of each pair and underline the previous state of the art (Table 2 of the paper). All improvements are statistically significant (p < 0.05).
+Bold marks the better of each pair (Table 2 of the paper). All improvements are statistically significant (p < 0.05).
 
 <table>
   <thead>
@@ -92,7 +92,7 @@ Bold marks the better of each pair and underline the previous state of the art (
     </tr>
     <tr>
       <td align="left">MacridVAE</td>
-      <td align="center"><ins>0.2313</ins></td>
+      <td align="center">0.2313</td>
       <td align="center">0.3409</td>
       <td align="center">0.0779</td>
       <td align="center">0.0475</td>
@@ -138,11 +138,11 @@ Bold marks the better of each pair and underline the previous state of the art (
     <tr>
       <td align="left">DualVAE</td>
       <td align="center">0.2299</td>
-      <td align="center"><ins>0.3535</ins></td>
-      <td align="center"><ins>0.0812</ins></td>
-      <td align="center"><ins>0.0512</ins></td>
-      <td align="center"><ins>0.0610</ins></td>
-      <td align="center"><ins>0.0499</ins></td>
+      <td align="center">0.3535</td>
+      <td align="center">0.0812</td>
+      <td align="center">0.0512</td>
+      <td align="center">0.0610</td>
+      <td align="center">0.0499</td>
     </tr>
     <tr>
       <td align="left">&nbsp;&nbsp;+ LS</td>

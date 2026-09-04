@@ -2,7 +2,7 @@
 
 # Rethinking Overconfidence in VAEs: Can Label Smoothing Help?
 
-**[Woo-Seong Yun](https://scholar.google.com/citations?user=ZRXyvtMAAAAJ)** &nbsp;·&nbsp; **Yeo-Jun Choi** &nbsp;·&nbsp; **Yoon-Sik Cho**
+**[Woo-Seong Yun](https://scholar.google.com/citations?user=ZRXyvtMAAAAJ)**\* &nbsp;·&nbsp; **Yeo-Jun Choi**\* &nbsp;·&nbsp; **Yoon-Sik Cho**
 
 <sub>Department of Artificial Intelligence, Chung-Ang University</sub>
 

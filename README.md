@@ -72,12 +72,12 @@ Bold marks the better of each pair (Table 2 of the paper). All improvements are 
       <th colspan="2" align="center">Yelp</th>
     </tr>
     <tr>
-      <th align="center">R@20</th>
-      <th align="center">N@20</th>
-      <th align="center">R@20</th>
-      <th align="center">N@20</th>
-      <th align="center">R@20</th>
-      <th align="center">N@20</th>
+      <th align="center">Recall@20</th>
+      <th align="center">NDCG@20</th>
+      <th align="center">Recall@20</th>
+      <th align="center">NDCG@20</th>
+      <th align="center">Recall@20</th>
+      <th align="center">NDCG@20</th>
     </tr>
   </thead>
   <tbody>

@@ -109,7 +109,7 @@ Bold marks the better of each pair (Table 2 of the paper). All improvements are 
       <td align="center">0.0459</td>
     </tr>
     <tr>
-      <td align="left">&nbsp;&nbsp;+ LS</td>
+      <td align="left">&nbsp; + LS</td>
       <td align="center"><b>0.2347</b></td>
       <td align="center"><b>0.3570</b></td>
       <td align="center"><b>0.0652</b></td>
@@ -127,7 +127,7 @@ Bold marks the better of each pair (Table 2 of the paper). All improvements are 
       <td align="center">0.0477</td>
     </tr>
     <tr>
-      <td align="left">&nbsp;&nbsp;+ LS</td>
+      <td align="left">&nbsp; + LS</td>
       <td align="center"><b>0.2359</b></td>
       <td align="center"><b>0.3658</b></td>
       <td align="center"><b>0.0873</b></td>
@@ -145,7 +145,7 @@ Bold marks the better of each pair (Table 2 of the paper). All improvements are 
       <td align="center">0.0499</td>
     </tr>
     <tr>
-      <td align="left">&nbsp;&nbsp;+ LS</td>
+      <td align="left">&nbsp; + LS</td>
       <td align="center"><b>0.2474</b></td>
       <td align="center"><b>0.3813</b></td>
       <td align="center"><b>0.0886</b></td>

@@ -63,16 +63,98 @@ Set `-ls 0.0` to reproduce the baseline without label smoothing. `train.sh` runs
 
 Bold marks the better of each pair and underline the previous state of the art (Table 2 of the paper). All improvements are statistically significant (p < 0.05).
 
-| Model | ML-1M<br>R@20 | ML-1M<br>N@20 | AKindle<br>R@20 | AKindle<br>N@20 | Yelp<br>R@20 | Yelp<br>N@20 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Mult-VAE | 0.2301 | 0.3378 | 0.0754 | 0.0479 | 0.0518 | 0.0417 |
-| MacridVAE | <u>0.2313</u> | 0.3409 | 0.0779 | 0.0475 | 0.0601 | 0.0485 |
-| PoisVAE | 0.2273 | 0.3442 | 0.0623 | 0.0392 | 0.0563 | 0.0459 |
-| &nbsp;&nbsp;+ LS | **0.2347** | **0.3570** | **0.0652** | **0.0397** | **0.0581** | **0.0476** |
-| BiVAE | 0.2305 | 0.3450 | 0.0763 | 0.0479 | 0.0584 | 0.0477 |
-| &nbsp;&nbsp;+ LS | **0.2359** | **0.3658** | **0.0873** | **0.0552** | **0.0608** | **0.0489** |
-| DualVAE | 0.2299 | <u>0.3535</u> | <u>0.0812</u> | <u>0.0512</u> | <u>0.0610</u> | <u>0.0499</u> |
-| &nbsp;&nbsp;+ LS | **0.2474** | **0.3813** | **0.0886** | **0.0566** | **0.0657** | **0.0537** |
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" align="left">Model</th>
+      <th colspan="2" align="center">ML-1M</th>
+      <th colspan="2" align="center">AKindle</th>
+      <th colspan="2" align="center">Yelp</th>
+    </tr>
+    <tr>
+      <th align="center">R@20</th>
+      <th align="center">N@20</th>
+      <th align="center">R@20</th>
+      <th align="center">N@20</th>
+      <th align="center">R@20</th>
+      <th align="center">N@20</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="left">Mult-VAE</td>
+      <td align="center">0.2301</td>
+      <td align="center">0.3378</td>
+      <td align="center">0.0754</td>
+      <td align="center">0.0479</td>
+      <td align="center">0.0518</td>
+      <td align="center">0.0417</td>
+    </tr>
+    <tr>
+      <td align="left">MacridVAE</td>
+      <td align="center"><ins>0.2313</ins></td>
+      <td align="center">0.3409</td>
+      <td align="center">0.0779</td>
+      <td align="center">0.0475</td>
+      <td align="center">0.0601</td>
+      <td align="center">0.0485</td>
+    </tr>
+    <tr>
+      <td align="left">PoisVAE</td>
+      <td align="center">0.2273</td>
+      <td align="center">0.3442</td>
+      <td align="center">0.0623</td>
+      <td align="center">0.0392</td>
+      <td align="center">0.0563</td>
+      <td align="center">0.0459</td>
+    </tr>
+    <tr>
+      <td align="left">&nbsp;&nbsp;+ LS</td>
+      <td align="center"><b>0.2347</b></td>
+      <td align="center"><b>0.3570</b></td>
+      <td align="center"><b>0.0652</b></td>
+      <td align="center"><b>0.0397</b></td>
+      <td align="center"><b>0.0581</b></td>
+      <td align="center"><b>0.0476</b></td>
+    </tr>
+    <tr>
+      <td align="left">BiVAE</td>
+      <td align="center">0.2305</td>
+      <td align="center">0.3450</td>
+      <td align="center">0.0763</td>
+      <td align="center">0.0479</td>
+      <td align="center">0.0584</td>
+      <td align="center">0.0477</td>
+    </tr>
+    <tr>
+      <td align="left">&nbsp;&nbsp;+ LS</td>
+      <td align="center"><b>0.2359</b></td>
+      <td align="center"><b>0.3658</b></td>
+      <td align="center"><b>0.0873</b></td>
+      <td align="center"><b>0.0552</b></td>
+      <td align="center"><b>0.0608</b></td>
+      <td align="center"><b>0.0489</b></td>
+    </tr>
+    <tr>
+      <td align="left">DualVAE</td>
+      <td align="center">0.2299</td>
+      <td align="center"><ins>0.3535</ins></td>
+      <td align="center"><ins>0.0812</ins></td>
+      <td align="center"><ins>0.0512</ins></td>
+      <td align="center"><ins>0.0610</ins></td>
+      <td align="center"><ins>0.0499</ins></td>
+    </tr>
+    <tr>
+      <td align="left">&nbsp;&nbsp;+ LS</td>
+      <td align="center"><b>0.2474</b></td>
+      <td align="center"><b>0.3813</b></td>
+      <td align="center"><b>0.0886</b></td>
+      <td align="center"><b>0.0566</b></td>
+      <td align="center"><b>0.0657</b></td>
+      <td align="center"><b>0.0537</b></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Citation
 
